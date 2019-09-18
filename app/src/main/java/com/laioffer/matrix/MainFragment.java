@@ -63,7 +63,6 @@ import java.util.Locale;
 import static android.app.Activity.RESULT_OK;
 import static com.laioffer.matrix.Config.listItems;
 
-
 /**
  * A simple {@link Fragment} subclass.
  */
