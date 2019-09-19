@@ -11,9 +11,15 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            buildConfigField 'String', "ApiKey", Matirx_GoogleAPI
+            resValue 'string', "api_key", Matirx_GoogleAPI
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', "ApiKey", Matirx_GoogleAPI
+            resValue 'string', "api_key", Matirx_GoogleAPI
         }
     }
     useLibrary 'org.apache.http.legacy'

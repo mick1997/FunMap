@@ -57,6 +57,7 @@ firestore.rules
 storage.rules
 functions
 public
+gradle.properties
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.

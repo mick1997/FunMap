@@ -31,8 +31,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity android:name=".EventGridActivity" />-->
-        <!--<activity android:name=".MainActivity"></activity>-->
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -40,7 +38,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="@string/api_key"/>
 
         <service
             android:name=".MyFirebaseMessagingService"
